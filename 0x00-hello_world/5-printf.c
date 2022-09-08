@@ -1,11 +1,8 @@
 #include <stdio.h>
-
 /**
- * main print - the script in the put function
+ * main - Prints onto screen
  *
- * Description: using the main function
- * this program prints "Programming is like building a multilingual puzzle
- * Return: 0
+ * Return: zero
  */
 int main(void)
 {
