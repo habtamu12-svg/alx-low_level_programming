@@ -1,15 +1,12 @@
 #include <stdio.h>
+
 /**
- * main - print the string in the put function
+ * main - Printing
  *
- * Description: using the main function
- * this programs prints "Programming is like building a multilingual puzzle
- * Retun:0
+ * Return: Always 0 (sucessful)
  */
 int main(void)
 {
-	char Mystr[] = "\"Programming is like building a multilingual puzzle";
-
-	puts(Mystr);
+	puts("\"Programming is like building a multilingual puzzle");
 	return (0);
 }
