@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
  * print_sign - Entr point
@@ -21,3 +21,4 @@ return (-1);
 }
 _putchar('0');
 return (0);
+}
