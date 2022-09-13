@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
  * times_table - prints the 9 times table
@@ -39,3 +39,4 @@ void times_table(void)
 		}
 		_putchar('\n');
 	}
+}
