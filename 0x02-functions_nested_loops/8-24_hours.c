@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
  * jack_bauer - prints every minute of the day
@@ -43,3 +43,4 @@ void jack_bauer(void)
 		hours_ones = '0';
 		hours_tens++;
 	}
+}
