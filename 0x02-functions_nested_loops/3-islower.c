@@ -1,4 +1,4 @@
-include "holberton.h"
+#include "main.h"
 
 /**
  * _islower - Entry point
@@ -19,3 +19,4 @@ return (1);
 }
 }
 return (0);
+}
