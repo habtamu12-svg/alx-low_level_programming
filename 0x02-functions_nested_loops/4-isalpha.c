@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
  * _isalpha - Entry point
@@ -21,3 +21,4 @@ int _isalpha(int c)
 	{
 		return (0);
 	}
+}
