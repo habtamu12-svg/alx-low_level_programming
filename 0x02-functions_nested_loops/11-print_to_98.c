@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "holberton.h"
+#include "main.h"
 
 /**
  * print_to_98 - prints numbers to 98
@@ -28,3 +28,4 @@ void print_to_98(int n)
 		}
 	}
 	printf("98\n");
+}
