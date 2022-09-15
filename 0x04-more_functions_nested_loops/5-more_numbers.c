@@ -1,30 +1,32 @@
-#inlcude "main.h"
+#include "main.h"
+
 
 /**
- * more_numbers - prints 0 - 14
+ * more_numbers - prints 10 times the numbers from 0-14.
  *
- * Return: void
  */
-
 void more_numbers(void)
 {
-	char n, c;
-	int i = 0;
+	int i, j;
 
-	while (i < 10)
+	i = 0;
+	while (i <= 10)
 	{
-		for (n = 0; n <= 14; n++)
+		j = 0;
+		while (j <= 14)
 		{
-			c = n;
-			if (n > 9)
+			if (j <= 9)
 			{
-				_putchar('1');
-				c = n % 10;
+				_putchar('0' + j);
 			}
-			_putchar('0' + c);
+			else
+			{
+				_putchar('0' + j / 10);
+				_putchar('0' + j % 10);
+			}
+			j++;
 		}
-
 		_putchar('\n');
 		i++;
 	}
-} 
+}
