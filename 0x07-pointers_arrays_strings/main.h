@@ -6,6 +6,7 @@
  * Auth : Habtamu
  * description: Header file containing prototype for all functions
  *       used in the 0x06-pointers_arrays_strings directory.
+ */
 
 #include <stddef.h>
 
@@ -19,5 +20,6 @@ char *_strstr(char *haystack, char *needle);
 void print_chessboard(char (*a)[8]);
 void print_diagsums(int *a, int size);
 void set_string(char **s, char *to);
+ 
 
 #endif
